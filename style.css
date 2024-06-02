@@ -69,3 +69,34 @@ body {
     font-weight: bold;
     border: 0;
 }
+
+.cards {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 30px;
+    font-family: sans-serif;
+}
+
+.description {
+    text-align: center;
+    margin: 8px;
+}
+
+.Available {
+    margin-bottom: 100px;
+}
