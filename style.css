@@ -23,10 +23,49 @@ body {
     gap: 12px;
 }
 
-.header {
+.header, .hero {
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 12px;
+    font-family: sans-serif;
+}
+
+.header {
+    gap: 500px;
+}
+
+.hero {
+    padding: 48px;
+}
+
+.left-hero .main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    text-wrap: wrap;
+    width: 400px;
+} 
+
+.right-hero img {
+    width: 480px;
+    height: 260px;
+}
+
+.left-hero .sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 300px;
+    margin: 20px 0 20px 0;
+}
+
+.Order {
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    color: #f9faf8;
+    font-weight: bold;
+    border: 0;
 }
