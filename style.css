@@ -145,3 +145,18 @@ body {
     height: 80px;
     padding: 60px;
 }
+
+.footer {
+    background-color: #1f2937;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #f9faf8;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
